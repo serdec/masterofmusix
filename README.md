@@ -2,6 +2,8 @@
 
 Ready to challenge your expertise in Music?
 
+Live version at https://masterofmusix.vercel.app/
+
 ## How to run
 Create a *.env.local* file and set the MUSIXMATCH_API_KEY variable 
 
