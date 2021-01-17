@@ -1,0 +1,52 @@
+.quizcard{
+  margin: auto;
+  padding: 3em;
+  border: 2px solid rgb(0,0,0, 0.2);
+  border-radius: 10px;
+  width: 40vw;
+  max-width: 900px;
+  position: relative;
+
+  display: flex;
+  flex-flow: column;
+}
+.quizcard__timeBar{
+  margin: auto;
+  height: 3px;
+  width: 80%;
+  background: #0070f3;
+  position: absolute;
+  transform-origin: left center;
+  animation: roundtime 10s;
+}
+@keyframes roundtime {
+  to {
+    /* More performant than animating `width` */
+    transform: scaleX(0);
+  }
+}
+
+.quizcard__snippet{
+  font-weight: 600;
+  font-size: larger;
+  padding: 1rem;
+}
+.quizcard__choice{
+
+  margin: .3rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ;
+}
+
+.quizcard__choice:hover,
+.quizcard__choice:focus,
+.quizcard__choice:active {
+  color: #0070f3;
+  border-color: #0070f3;
+  scale: 1.05;
+}

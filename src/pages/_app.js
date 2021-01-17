@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { wrapper } from '../store/store';
 
 import '../../styles/globals.css';
 
@@ -13,4 +12,4 @@ MyApp.propTypes = {
   pageProps: PropTypes.any,
 };
 
-export default wrapper.withRedux(MyApp);
+export default MyApp;

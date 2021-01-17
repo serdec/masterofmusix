@@ -1,0 +1,37 @@
+.header{
+  background-color: rgb(0, 0, 0, 0);
+  height: 60px;
+  padding: 0 2em;
+  border-bottom: 1px solid rgb(0,0,0,0.1);
+  font-size: 1em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__pagesLinks{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.header__pageLink{
+  padding-right: 1em;
+}
+.header__userInfo{
+  display: flex;
+  flex-flow: row;
+}
+
+.header__userName{
+  color:darkgray
+}
+
+.header__button{
+  background: white;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .8em;
+  cursor: pointer;
+}
