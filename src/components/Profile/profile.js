@@ -6,7 +6,6 @@ const Profile = ({ user = '' } = {}) => {
   const [score, setScore] = useState();
 
   useEffect(() => {
-    console.log({ user });
     setScore(getUserScore(user));
   }, [user]);
 

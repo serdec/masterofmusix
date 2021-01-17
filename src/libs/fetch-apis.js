@@ -222,13 +222,13 @@ export const populateTracksDB = async ({
     genre,
     language,
   });
+  const pageSize = 100;
   // if we are in development mode we retrieve 2 pages only
   const numberOfPages =
     process.env.NODE_ENV === 'development'
       ? 2
       : Math.ceil(numberOfAvailableSongs / pageSize);
   let pages = Array.from({ length: numberOfPages }, (x, i) => i);
-  const pageSize = 100;
 
   let tracks = [];
 

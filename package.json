@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-riteway-template",
+  "name": "master-of-musix",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,17 +19,17 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
+    "@babel/core": "^7.12.10",
     "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.12.7",
-    "@babel/preset-react": "^7.12.7",
-    "@babel/register": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/register": "^7.12.10",
     "babel-loader": "^8.2.2",
     "babel-plugin-css-modules-transform": "^1.6.2",
-    "eslint": "^7.14.0",
+    "eslint": "^7.18.0",
     "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1",
     "riteway": "^6.2.1",
